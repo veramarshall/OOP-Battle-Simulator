@@ -27,7 +27,7 @@ class Hero:
         if self.health < 0:
             print("hero health is 0")
             self.health = 0
-        print(f"{self.name} takes {damage} damage. Health is now {self.health}.")
+        print(f"{self.name} takes {damage} damage. Health is {self.health}.")
     
     def is_alive(self):
         return self.health > 0

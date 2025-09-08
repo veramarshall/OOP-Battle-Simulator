@@ -21,7 +21,7 @@ class enemy:
         self.health -= damage
         if self.health < 0:
             self.health = 0 
-            print("goblin health is 0")
+            print("health is 0")
         print(f"{self.name} takes {damage} damage. Health is now {self.health}.")
 
     def is_alive(self):
