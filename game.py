@@ -50,7 +50,7 @@ def main():
     if hero.is_alive():
         print("oh no BOSS EVIL LION -----------------------------------------------------")
         lion = evilLion("evil Lion")
-        while hero.is_alive() and lion.is_alive:
+        while hero.is_alive() and lion.is_alive():
             damage = hero.strike()
             lion.take_damage(damage)
             damage = lion.attack()
